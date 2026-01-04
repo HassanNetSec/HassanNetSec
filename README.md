@@ -1,141 +1,226 @@
-<h1 align="center">Hassan Khan</h1>
-<h3 align="center">Full-Stack Engineer | Cybersecurity Specialist | ML Security Researcher</h3>
-<p align="center">Building intelligent, secure systems that protect at scale—from phishing detection to zero-knowledge email infrastructure.</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hassannetsec&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
+# Hassan Khan
+
+### Full-Stack Engineer | Cybersecurity Specialist | ML Security Researcher
+
+Building intelligent, secure systems that protect at scale—from phishing detection to zero-knowledge email infrastructure.
+
+[![Profile Views](https://komarev.com/ghpvc/?username=hassannetsec&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/hassannetsec)
+[![GitHub followers](https://img.shields.io/github/followers/hassannetsec?label=Followers&style=for-the-badge&color=success)](https://github.com/hassannetsec?tab=followers)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/hassan-khan-641a32371)
+
+</div>
 
 ---
 
-## 👋 About Me
+## 👨‍💻 About Me
 
-I'm a **Cybersecurity student at GIKI** and **full-stack engineer** building production-grade security tools powered by machine learning. My work sits at the intersection of **offensive security, ML engineering, and secure application development**—designing systems that don't just detect threats, but explain them.
+I'm a **Cybersecurity Engineering student at GIKI** and **full-stack developer** specializing in production-grade security tools powered by machine learning. My work bridges **offensive security, ML engineering, and secure application development**—designing systems that don't just detect threats, but explain them.
 
-**What sets me apart:** I don't just build ML models; I build **deployable security infrastructure** with explainable AI, modern web frameworks, and security-first architecture. My projects achieve measurable impact: **97% phishing detection accuracy, sub-200ms API responses, and zero-knowledge encryption** at scale.
+### What Sets Me Apart
 
-🔍 **Currently Building:**
-- AI-driven security tools with explainable threat intelligence (SHAP integration)
-- Zero-knowledge encrypted communication systems (ChaCha20-Poly1305 AEAD)
-- Offensive security skills on Parrot OS and Kali Linux
-- Full-stack applications with Next.js, FastAPI, and secure backend architectures
+I don't just build ML models; I build **deployable security infrastructure** with explainable AI, modern web frameworks, and security-first architecture. My projects deliver measurable impact:
 
-💼 **Open to:**
+- 🎯 **97% phishing detection accuracy** with explainable AI
+- ⚡ **Sub-200ms API response times** for real-time threat analysis
+- 🔐 **Zero-knowledge encryption** at scale with ChaCha20-Poly1305
+- 🚀 **Production-ready systems** built with FastAPI, Next.js, and secure architectures
+
+### 🔍 Currently Building
+
+```
+✓ AI-driven security tools with explainable threat intelligence (SHAP)
+✓ Zero-knowledge encrypted communication systems (ChaCha20-Poly1305 AEAD)
+✓ Offensive security capabilities on Parrot OS and Kali Linux
+✓ Full-stack applications with Next.js, FastAPI, and secure backends
+```
+
+### 💼 Open To
+
 - **Summer 2026 internships** in Secure Software Development, DevSecOps, Full-Stack Engineering
-- Open-source security collaborations and ML/cybersecurity projects
-- Technical discussions on threat detection, secure architecture, and AI/ML security applications
+- Open-source security collaborations and ML/cybersecurity research projects
+- Technical discussions on threat detection, secure architecture, and AI/ML security
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🛡️ [PhishGuard AI](https://github.com/HassanNetSec/phishguard-ai) — ML-Powered Phishing Detection System
-**The flagship project.** An explainable AI system that detects phishing URLs with 97% accuracy—built for real-world security operations.
+<table>
+<tr>
+<td width="50%">
 
-**Tech Stack:** Python • FastAPI • Next.js • Random Forest • SHAP • Scikit-learn  
-**Impact:** Outperformed Decision Tree, Logistic Regression, and KNN on 11,000+ URL dataset
+### 🛡️ PhishGuard AI
+**ML-Powered Phishing Detection**
 
-**Key Features:**
-- **Explainable AI:** Integrated SHAP for per-prediction insights, making threat decisions transparent to security teams
-- **Production-Ready API:** Async FastAPI pipeline with DNS, WHOIS, and SSL analysis achieving sub-200ms response times
-- **Real-Time Dashboard:** Next.js interface for instant threat classification and investigation workflows
-- **Feature Engineering:** Advanced URL parsing, domain reputation analysis, and behavioral pattern detection
+An explainable AI system achieving **97% accuracy** on 11,000+ URLs—built for real-world security operations.
 
-This project demonstrates how **ML can augment human security analysts** with actionable, explainable threat intelligence—not just predictions.
+**Tech Stack:**  
+`Python` `FastAPI` `Next.js` `Random Forest` `SHAP` `Scikit-learn`
 
----
+**Highlights:**
+- ✨ Explainable AI with SHAP integration
+- ⚡ Sub-200ms async API responses
+- 📊 Real-time threat dashboard
+- 🎯 Outperformed Decision Tree, Logistic Regression, KNN
 
-### 🔒 [CryptMail](https://github.com/HassanNetSec/cryptmail-py) — Zero-Knowledge Disposable Email Service
+[**→ View Project**](https://github.com/HassanNetSec/phishguard-ai)
+
+</td>
+<td width="50%">
+
+### 🔒 CryptMail
+**Zero-Knowledge Email Service**
+
 Privacy-first temporary email with military-grade encryption and 1-hour auto-expiry.
 
-**Tech Stack:** Next.js • FastAPI • ChaCha20-Poly1305 AEAD • MongoDB  
-**Security:** Zero-knowledge architecture • XSS/CSRF hardening • Burp Suite validated
+**Tech Stack:**  
+`Next.js` `FastAPI` `ChaCha20-Poly1305` `MongoDB`
 
-**Technical Highlights:**
-- **AEAD Encryption:** ChaCha20-Poly1305 for authenticated encryption, ensuring both confidentiality and integrity
-- **Scalable Backend:** Async FastAPI supporting 50+ concurrent users with real-time inbox updates
-- **Security Testing:** Penetration tested with Burp Suite; hardened against common web vulnerabilities
-- **Privacy-First Design:** No PII collection, disposable by default, server-side encryption
+**Highlights:**
+- 🔐 AEAD encryption (ChaCha20-Poly1305)
+- 👥 Supports 50+ concurrent users
+- 🛡️ Burp Suite penetration tested
+- 🚫 Zero PII collection
 
----
+[**→ View Project**](https://github.com/HassanNetSec/cryptmail-py)
 
-### 🩺 [Doctor Friend](https://the-doctors-friends.vercel.app) — Healthcare Appointment Platform
-Connecting patients to verified doctors with secure booking and automated notifications.
+</td>
+</tr>
+</table>
 
-**Tech Stack:** Next.js • Node.js • Nodemailer • GitHub API  
-**Innovation:** GitHub API as version-controlled data storage (zero database hosting costs)
+### 🩺 Doctor Friend — Healthcare Platform
+**Live:** [the-doctors-friends.vercel.app](https://the-doctors-friends.vercel.app)
 
-**Features:**
-- Real-time appointment booking and queue management
-- Automated email notifications via Nodemailer
-- Secure authentication and privacy-conscious data handling
-- Cost-optimized architecture leveraging GitHub as backend
+Connecting patients to verified doctors with secure booking and automated notifications. Innovative use of **GitHub API as version-controlled database** (zero hosting costs).
 
----
-
-## 🛠️ Technical Skills
-
-### **Languages & Core Technologies**
-Python • JavaScript • TypeScript • C/C++ • SQL • HTML5 • CSS3
-
-### **Full-Stack Development**
-**Frontend:** React.js • Next.js • Tailwind CSS • Bootstrap  
-**Backend:** FastAPI • Node.js • Express.js • NestJS  
-**Databases:** PostgreSQL • MongoDB  
-**APIs & Testing:** RESTful APIs • JWT Authentication • Jest • Cypress • Postman
-
-### **AI/ML & Security Tools**
-**Machine Learning:** Scikit-learn • Pandas • NumPy • Random Forest • SHAP  
-**Security Tooling:** Burp Suite • Kali Linux • Metasploit • Wireshark • Nmap • Scapy • OWASP ZAP  
-**Cryptography & Secure Coding:** ChaCha20-Poly1305 • AES • Web Penetration Testing
-
-### **Infrastructure & DevOps**
-Git • Docker • Linux (Kali, Parrot OS) • Async Processing • Version Control
+`Next.js` `Node.js` `Nodemailer` `GitHub API` `JWT Authentication`
 
 ---
 
-## 📊 GitHub Statistics
+## 🛠️ Technical Arsenal
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=hassannetsec&show_icons=true&theme=default&locale=en" alt="GitHub Stats" />
-</p>
+<details open>
+<summary><b>💻 Languages & Core</b></summary>
+<br>
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hassannetsec&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>🎨 Frontend Development</b></summary>
+<br>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>⚙️ Backend & APIs</b></summary>
+<br>
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>🤖 AI/ML & Security</b></summary>
+<br>
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white)
+
+**Security Toolkit:** Metasploit • Wireshark • Nmap • Scapy • OWASP ZAP • ChaCha20-Poly1305 • AES
+
+</details>
+
+<details open>
+<summary><b>🗄️ Databases & Infrastructure</b></summary>
+<br>
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</details>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hassannetsec&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hassannetsec&layout=compact&theme=github_dark&hide_border=true"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hassannetsec&theme=dark&hide_border=true)](https://git.io/streak-stats)
+
+</div>
 
 ---
 
 ## 🎓 Education & Certifications
 
-**Ghulam Ishaq Khan Institute (GIKI)** — BS Cybersecurity (2023–2027)  
+**🏛️ Ghulam Ishaq Khan Institute of Engineering Sciences and Technology (GIKI)**  
+Bachelor of Science in Cybersecurity • 2023–2027  
 *Relevant Coursework:* Network Security, Secure Software Development, Cryptography, Web Application Security
 
-**Certifications:**
-- Burp Suite Unfiltered: Beginner to Advanced (Packt, 2025)
-- Web Scraping with Scrapy and Python (Packt, 2025)
-- Kali Linux (Board Infinity, 2025)
-- Crash Course on Python (Google, 2025)
+### 📜 Professional Certifications
+
+```
+✓ Burp Suite Unfiltered: Beginner to Advanced — Packt (2025)
+✓ Web Scraping with Scrapy and Python — Packt (2025)
+✓ Kali Linux — Board Infinity (2025)
+✓ Crash Course on Python — Google (2025)
+```
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect With Me
+
+<div align="center">
 
 I'm always interested in discussing **ML security applications, threat detection systems, secure architecture, and open-source collaboration.**
 
-**📧 Email:** hassankhancyber647@gmail.com  
-**🔗 LinkedIn:** [linkedin.com/in/hassan-khan-641a32371](https://linkedin.com/in/hassan-khan-641a32371)  
-**💼 Portfolio:** [portfolio-website-nu-seven-13.vercel.app](https://portfolio-website-nu-seven-13.vercel.app)  
-**💬 Stack Overflow:** [stackoverflow.com/users/27667625/hassan](https://stackoverflow.com/users/27667625/hassan)
+[![Email](https://img.shields.io/badge/Email-hassankhancyber647%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hassankhancyber647@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hassan_Khan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hassan-khan-641a32371)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-website-nu-seven-13.vercel.app)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-Hassan-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/27667625/hassan)
 
-<p>
-  <a href="https://stackoverflow.com/users/27667625/hassan" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Stack Overflow" height="30" width="40" />
-  </a>
-</p>
+</div>
 
 ---
 
-<p align="center">
-  <i>💡 Open to internship opportunities, security research collaborations, and interesting technical challenges.</i>
-</p>
+<div align="center">
+
+### 💡 Open to Summer 2026 Internships
+
+**Secure Software Development • DevSecOps • Full-Stack Engineering**
+
+*Let's build something secure together.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+
+</div>
